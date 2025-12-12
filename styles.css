@@ -9,6 +9,7 @@ body {
     margin-right: auto;
     margin-top: 2em;
     margin-bottom: 2em;
+    padding: 1em;
 }
 
 header {
@@ -25,7 +26,7 @@ h1 {
 a {
     text-decoration: none;
     padding: 5px;
-    color: #ffffff;
+    color: #F8F3EB;
 }
 
 a:hover {
@@ -35,8 +36,49 @@ a:hover {
 #logo {
     height: 200px;
     width: 200px;
-    background-color: #ffffff;
+    background-color: #F8F3EB;
     margin-left: auto;
     margin-right: auto;
     border-radius: 100%;
+    border: 2px solid #F8F3EB;
 }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 4em;
+    border: 2px solid #F8F3EB;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+.menu {
+    flex-grow: 2;
+    margin: 0.5em 1em;
+}
+
+.section, #tagline {
+    margin-bottom: 4em;
+}
+
+.inseparator {
+    height: 4em;
+    width: 4em;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("img/tree.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: #F8F3EB;
+    border-radius: 100%;
+    margin-bottom: 4em; */
+}
+
+.separator {
+    border-bottom: 2px solid #F8F3EB;
+    padding-bottom: 1em;
+    margin-bottom: 4em;
+}
+
