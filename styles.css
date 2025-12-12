@@ -82,3 +82,8 @@ nav {
     margin-bottom: 4em;
 }
 
+@media (max-width: 640px) {
+    .menu {
+        width: 100%;
+    }
+}
